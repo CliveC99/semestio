@@ -1,12 +1,14 @@
 # Semestio
 
+![Semestio across desktop, laptop, tablet and mobile](assets/semestio-hero.png)
+
 ### Your semester. All together.
 
 Semestio is a student academic hub designed to bring timetables, deadlines, exams, grades and shared coursework into one organised workspace.
 
 🌐 **Live application:** https://semestio.com
 
-> **Note:** This is the public showcase repository for Semestio. The production source code is maintained privately.
+> **Note:** This is the public showcase repository for Semestio. The production source code is maintained privately and can be made available for review on request.
 
 ## ✨ Key Features
 
@@ -19,6 +21,12 @@ Semestio is a student academic hub designed to bring timetables, deadlines, exam
 - **Web Push Notifications** — receive academic reminders even when the application is closed.
 - **Progressive Web App** — install Semestio on supported devices for an app-like experience.
 
+## 📊 Smart Academic Dashboard
+
+![Semestio academic dashboard](assets/dashboard.png)
+
+The dashboard brings together the student's immediate priorities, upcoming classes and academic workload, helping surface what needs attention next.
+
 ## 🛠️ Technology
 
 Semestio is built with:
@@ -26,6 +34,30 @@ Semestio is built with:
 **Next.js · TypeScript · React · Auth.js · PostgreSQL · Prisma · Docker · Cloudflare · Web Push**
 
 The application is self-hosted on Linux with containerised services for the application, database migrations and background tasks.
+
+## ⚙️ Engineering Highlights
+
+- Full-stack authentication with email verification, password recovery and account controls.
+- PostgreSQL data layer managed through Prisma migrations.
+- Automated testing covering core application behaviour and security-sensitive workflows.
+- Background processing for timetable synchronisation and Web Push delivery.
+- Containerised Linux deployment using Docker Compose.
+- Production traffic served securely through Cloudflare.
+- Feedback and bug-reporting tools to support continued product development.
+
+## 📅 Timetable & Calendar
+
+### Weekly Timetable
+
+![Semestio weekly timetable](assets/timetable.png)
+
+Classes can be managed through a dedicated weekly timetable, with support for imported and manually created timetable events.
+
+### Academic Calendar
+
+![Semestio academic calendar](assets/calendar.png)
+
+Classes, deadlines and assessments are brought together in a semester-focused calendar.
 
 ## 📱 Responsive by Design
 
@@ -37,6 +69,9 @@ Semestio is actively developed and deployed at **https://semestio.com**.
 
 Development is focused on practical features, reliability and improvements based on real student use and feedback.
 
----
+## 👤 Developer
 
-**Designed and developed by Clive Connell**
+**Clive Connell**  
+Software Development student at Atlantic Technological University.
+
+For questions about Semestio or requests to review the source code, please contact me through my GitHub profile.
